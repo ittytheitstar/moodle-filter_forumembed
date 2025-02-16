@@ -12,7 +12,9 @@ Embed forum discussions anywhere with filter tags.
 ## Usage
 
 1. Create a discussion thread within a forum in your chosen course.
-2. Add `{discussion:<Your discussion name>}` e.g. `{discussion:Topic #1}` to text anywhere on a course.
+2. Add `{discussion:<Your Forum Name>:<Your discussion name>}` e.g. `{discussion:Announcements:Topic #1}` to text anywhere on a course.
+   Alternatively Add `{discussion:<Your discussion name>}` e.g. `{discussion:Topic #1}` to text anywhere on a course where only 1 discussion topic header is present on the course.
+   (This is for backwards compatibility while migrating the plugin to moodle 4.5 supported)
 
 When the text is displayed it will be replaced with the discussion thread.
 
@@ -27,6 +29,7 @@ You can use CSS to modify the look and feel of the discussion thread, the embed 
 ## Warm thanks
 
 Thanks to [Massey University](https://www.massey.ac.nz/) for funding the initial development of this plugin.
+Thanks to [Ara Instiute of Canterbury](https://www.ara.ac.nz/) for providing feature upgrades and moodle 4.5 support.
 
 This plugin was developed by [Catalyst IT](https://www.catalyst.net.nz/).
 
