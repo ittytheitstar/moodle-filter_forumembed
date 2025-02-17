@@ -81,7 +81,7 @@ class filter_forumembed extends moodle_text_filter {
             // Failed to find the discussion to render, so display error message, considering we matched a discussion row above this is deeply concerning.
             if ($discussion == null) {
                 return preg_replace($matchingPattern,
-                    get_string('missingdiscussion', 'filter_forumembed', $name), $text);
+                    get_string('missingdiscussion', 'filter_forumembed', $discussionname ), $text);
             }
 
 
